@@ -1,0 +1,51 @@
+{
+  "capture_commit": "f30dc1092272d94e3d9fb24723f1d4716d42f0be",
+  "verified_merge_commit": "63a2c220de9e025125fcdcbf3c565fea533afc18",
+  "origin_main": "29c52b0342ff33b0d1b0ec32b51caa31a106dd54",
+  "frontend_tree_unchanged_between_capture_and_verified_merge": true,
+  "surface": "production DataSourceEditorDialog through the development-only Chinese mock route",
+  "boundary": "local synthetic UI and request-chain evidence only; not a live DingTalk tenant ingestion",
+  "desktop": {
+    "viewport": "1440x1000",
+    "horizontal_overflow": false,
+    "untranslated_keys": [],
+    "unexpected_console_warnings_or_errors": []
+  },
+  "mobile": {
+    "viewport": "390x844",
+    "drawer_width_px": 390,
+    "horizontal_overflow": false,
+    "body_client_height_px": 723,
+    "body_scroll_height_px": 859,
+    "footer_top_px": 791.33,
+    "footer_bottom_px": 844
+  },
+  "functional_checks": {
+    "invalid_credentials_error": true,
+    "valid_connection": true,
+    "keyboard_lazy_tree_expansion_and_selection": true,
+    "selected_resource": "钉钉产品协作空间 → 使用指南 → 钉钉产品使用手册",
+    "sync_mode_round_trip": true,
+    "conflict_strategy_round_trip": true,
+    "sync_deletion_round_trip": true,
+    "submit_cancel_disabled": true,
+    "submit_close_disabled": true,
+    "final_chinese_receipt": true
+  },
+  "requests": {
+    "preview_validations": 2,
+    "previews": 5,
+    "resource_lists": 3,
+    "creates": 1,
+    "syncs": 1,
+    "unknown": 0,
+    "saw_expected_create": true
+  },
+  "screenshots": [
+    "dingtalk-merge-regression-initial-desktop-2026-07-31.png",
+    "dingtalk-merge-regression-resource-desktop-2026-07-31.png",
+    "dingtalk-merge-regression-strategy-desktop-2026-07-31.png",
+    "dingtalk-merge-regression-receipt-desktop-2026-07-31.png",
+    "dingtalk-merge-regression-credentials-mobile-390x844-2026-07-31.png"
+  ]
+}
